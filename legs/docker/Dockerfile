@@ -28,6 +28,7 @@ RUN cp /build/podtatoserver .
 
 # Build a small image
 FROM scratch
+//
 
 COPY --from=builder /dist/podtatoserver /
 COPY /static  /static
