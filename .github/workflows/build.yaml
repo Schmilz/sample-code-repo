@@ -38,7 +38,7 @@ jobs:
       with:
         version: v1.29
         working-directory: ${{ matrix.component }}
-      
+      //
     - name: Build
       id: docker_build
       uses: docker/build-push-action@v2
