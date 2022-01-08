@@ -23,6 +23,7 @@ import (
 )
 
 //go:embed static/*
+//test
 
 var static embed.FS
 var serviceVersion string
